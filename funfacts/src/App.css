@@ -40,3 +40,84 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App layout */
+.app-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.fact-card {
+  background: linear-gradient(180deg,#ffffff,#f7fbff);
+  border: 1px solid #e6eef9;
+  box-shadow: 0 6px 20px rgba(22,33,62,0.06);
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.fact-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+  color: #1f3a93;
+  letter-spacing: 0.06em;
+}
+
+.fact-text {
+  margin: 0.75rem 0 0;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #0b2545;
+}
+
+.counter-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: #334155;
+}
+
+.counter-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  background: #0b61ff;
+  color: rgb(124, 126, 248);
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn:active { transform: translateY(1px); }
+
+.count-value {
+  min-width: 48px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #0b2545;
+}
+
+.muted { color: #667085; }
+.error { color: #b91c1c; }
